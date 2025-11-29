@@ -1,10 +1,10 @@
-# SimoesAnd-backend-fase3-celso
+# backend-fase3-celso
 
 Sistema Acadêmico: Abordagem via Composição
 
 Este projeto é uma demonstração prática em Java de como utilizar Composição como alternativa à Herança para resolver problemas de acoplamento forte e permitir flexibilidade de papéis em um sistema orientado a objetos.
 
-📄 Sobre o Projeto
+📄 # Sobre o Projeto
 
 Em sistemas tradicionais usando herança pura, é difícil modelar uma pessoa que desempenha múltiplos papéis simultaneamente (ex: alguém que é tanto Professor quanto Aluno), pois o Java não suporta herança múltipla de classes.
 
@@ -16,9 +16,9 @@ PapelAcademico: Uma interface que define o comportamento genérico.
 
 PapelAluno / PapelProfessor: Implementações concretas que podem ser "plugadas" dinamicamente em um membro.
 
-🚀 Como Executar
+🚀 #Como Executar
 
-Pré-requisitos
+# Pré-requisitos
 
 Java JDK 8 ou superior instalado.
 
@@ -31,7 +31,7 @@ Abrir o Terminal: Navegue até a pasta onde você salvou o arquivo.
 Compilar:
 Execute o comando abaixo para gerar os arquivos .class (bytecode):
 
-javac SistemaComposicao.java
+# javac SistemaComposicao.java
 
 
 Executar:
